@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Tescases.VerifyHomePage">
+        <methods>
+          <include name="HomepageTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- Tescases.VerifyHomePage -->
+      <class name="Tescases.DROPDOWN2">
+        <methods>
+          <include name="dropDownTc"/>
+        </methods>
+      </class> <!-- Tescases.DROPDOWN2 -->
+      <class name="Tescases.YahoomailApp">
+        <methods>
+          <include name="yahooSignInTestCase"/>
+          <include name="yahooStartUpTestCase"/>
+          <include name="yahooTearDown"/>
+        </methods>
+      </class> <!-- Tescases.YahoomailApp -->
+      <class name="Tescases.NevigateMethod">
+        <methods>
+          <include name="HomepageTest"/>
+        </methods>
+      </class> <!-- Tescases.NevigateMethod -->
+      <class name="Tescases.ACTION_MOUSEHOVER">
+        <methods>
+          <include name="actionTestCases"/>
+          <include name="testcase3"/>
+          <include name="rightClickAction"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tescases.ACTION_MOUSEHOVER -->
+      <class name="Tescases.JavaScriptExecutor">
+        <methods>
+          <include name="javaScriptexecuterTestCase"/>
+        </methods>
+      </class> <!-- Tescases.JavaScriptExecutor -->
+      <class name="Tescases.EXCEPTIONhANDLINGTryCatch">
+        <methods>
+          <include name="testcaseTRYcATCH"/>
+        </methods>
+      </class> <!-- Tescases.EXCEPTIONhANDLINGTryCatch -->
+      <class name="Tescases.DropDown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dropDownTest"/>
+        </methods>
+      </class> <!-- Tescases.DropDown -->
+      <class name="Tescases.cityBankApp">
+        <methods>
+          <include name="logInTestCase"/>
+        </methods>
+      </class> <!-- Tescases.cityBankApp -->
+      <class name="Tescases.DatabaseTesting">
+        <methods>
+          <include name="databaseTestCase"/>
+        </methods>
+      </class> <!-- Tescases.DatabaseTesting -->
+      <class name="Tescases.ITESTLISTNERs">
+        <methods>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- Tescases.ITESTLISTNERs -->
+      <class name="Tescases.MultipleWindowHandle">
+        <methods>
+          <include name="handlingMultipleWindow"/>
+        </methods>
+      </class> <!-- Tescases.MultipleWindowHandle -->
+      <class name="Tescases.WebdriverHandleMultipleElement">
+        <methods>
+          <include name="webTableTest"/>
+        </methods>
+      </class> <!-- Tescases.WebdriverHandleMultipleElement -->
+      <class name="Tescases.CSS_DYNAMICeLEMENT">
+        <methods>
+          <include name="logInTestCase"/>
+        </methods>
+      </class> <!-- Tescases.CSS_DYNAMICeLEMENT -->
+      <class name="Tescases.CROSSBROWSERTESTINGusingTESTNG">
+        <methods>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- Tescases.CROSSBROWSERTESTINGusingTESTNG -->
+      <class name="Tescases.RadioButtonCheckBox">
+        <methods>
+          <include name="RadioButtonCheckBox"/>
+        </methods>
+      </class> <!-- Tescases.RadioButtonCheckBox -->
+      <class name="Tescases.TestNgannotation">
+        <methods>
+          <include name="methodAfterAllTest"/>
+          <include name="method2"/>
+          <include name="methodAfterEachTest"/>
+          <include name="method3"/>
+          <include name="methodBeforeEachTest"/>
+          <include name="method1"/>
+          <include name="methodBeforeAllTest"/>
+        </methods>
+      </class> <!-- Tescases.TestNgannotation -->
+      <class name="Tescases.CHECKBOX_RADIO_BUTTON">
+        <methods>
+          <include name="logInTestCase"/>
+        </methods>
+      </class> <!-- Tescases.CHECKBOX_RADIO_BUTTON -->
+      <class name="Tescases.ExtentReport">
+        <methods>
+          <include name="CreatingAccWithOutEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tescases.ExtentReport -->
+      <class name="Tescases.EbayApp">
+        <methods>
+          <include name="TestCase"/>
+        </methods>
+      </class> <!-- Tescases.EbayApp -->
+      <class name="Tescases.FB_CSS">
+        <methods>
+          <include name="cssLocator"/>
+        </methods>
+      </class> <!-- Tescases.FB_CSS -->
+      <class name="Tescases.VerifyHomePageWithScreenshot">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="HomepageTest"/>
+        </methods>
+      </class> <!-- Tescases.VerifyHomePageWithScreenshot -->
+      <class name="Tescases.Assert_Verification">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- Tescases.Assert_Verification -->
+      <class name="Tescases.CROSSPLATFORMselGridTest">
+        <methods>
+          <include name="gridTest"/>
+        </methods>
+      </class> <!-- Tescases.CROSSPLATFORMselGridTest -->
+      <class name="Tescases.WAIT">
+        <methods>
+          <include name="waitTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tescases.WAIT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
