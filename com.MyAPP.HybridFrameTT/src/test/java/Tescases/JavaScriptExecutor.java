@@ -11,7 +11,7 @@ import Factory.BrowserFactory;
 
 public class JavaScriptExecutor {
 	
-	
+
 	@Test
 	public void javaScriptexecuterTestCase() throws IOException{
 		WebDriver driver=BrowserFactory.getBrwoser("firefox");
@@ -19,20 +19,15 @@ public class JavaScriptExecutor {
 		
 
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		
-		//1.generate pop up alert
-		//js.executeScript("alert('HELLO WORLD')");
-		
 		js.executeScript("arguments[0].click();",driver.findElement(By.id("u_0_t")));
-		
-		
+
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,-250)", "");
 		
 		driver.quit();
 //		===========
 
-
+//SUMMARY
 		//1.ENTER VALUE/TEXT IN AN INPUT FIELD
 		js.executeScript("document.getElementById('email').value= 'your input text'") ;
 		// OR
@@ -53,20 +48,28 @@ public class JavaScriptExecutor {
 		js.executeScript("document.getElementById('id').ScrollIntoView();",element))
 
 
-//		============
+		//		============
 
 		//Others:
-//		How to click a button: document.getElementById(‘ButtonId’).Click();
-//		How to get the title of webpage : String title=js.executeScript(“return document.title”).toString(); System.out.PrintLn(title)
-//		How to re-fresh a window: Interact with a web page itself then : js.executeScript(history.go(0))
-//		How to navigate back to page : js.executeScript(“window.history.back()”)
-//		How to navigate to next page: js.executeScript(“window.history.forward()”)
+		//6. How to click a button:
+		js.executeScript("document.getElementById(‘ButtonId’).Click()");
+		//7. How to get the title of webpage :
+		String title=js.executeScript("return document.title”").toString(); System.out.PrintLn(title)
+		//8. How to re-fresh a window: Interact with a web page itself then :
+		js.executeScript(history.go(0))
+		//9. How to navigate back to page :
+		js.executeScript("window.history.back()")
+		//10. How to navigate to next page:
+		js.executeScript("window.history.forward()")
+		//11.generate pop up alert
+		js.executeScript("alert('HELLO WORLD')");
 
 //		Script start from > window, document
 //		Method-
-//		ScrollBy
-//		getElementById
-//		querySelector
+//		ScrollBy()
+//		ScrollIntoView()
+//		getElementById()
+//		querySelector()
 
 
 
