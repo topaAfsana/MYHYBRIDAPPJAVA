@@ -32,6 +32,8 @@ public class DropDown {
  
   //2.create select handle to select item
   Select select=new Select(MonthDditem);
+
+
   //select.selectByIndex(2);
   //3.make a list of all item by select handle
   List<WebElement> list=select.getOptions();

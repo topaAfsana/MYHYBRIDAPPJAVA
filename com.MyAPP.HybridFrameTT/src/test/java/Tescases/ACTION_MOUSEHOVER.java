@@ -51,11 +51,7 @@ public class ACTION_MOUSEHOVER {
 	
 	@Test
 	public void actionTestCases() {
-		
-		
-	
-		
-		
+
 
 		String  parentWindow= driver.getWindowHandle();
 		

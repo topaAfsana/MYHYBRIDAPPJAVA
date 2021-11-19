@@ -12,18 +12,18 @@ public class TestNgannotation {
 	
 	@BeforeClass
 	public void methodBeforeAllTest(){
-		System.out.println("THIS IS THE @BeforeClass METHOD THAT RUN BEFORE ALL TEST");
+		System.out.println("THIS IS THE @BeforeClass METHOD THAT RUN BEFORE ClASS OF ALL @TEST");
 	}
 	
 	
 	
 	@BeforeMethod
 	public void methodBeforeEachTest(){
-		System.out.println("THIS IS THE @BeforeMethod  METHOD THAT RUN BEFORE EACH TEST");}
+		System.out.println("THIS IS THE @BeforeMethod  METHOD THAT RUN BEFORE EACH @TEST OF A CLASS");}
 	
 	@Test
 	public void method1(){
-		System.out.println("THIS IS THE @Test METHOD 1 ");}
+		System.out.println("THIS IS THE @Test METHOD 1 WILL CONSIDER AS TEST ");}
 		
 		
 		@Test
@@ -36,10 +36,10 @@ public class TestNgannotation {
 		
 		@AfterMethod
 		public void methodAfterEachTest(){
-			System.out.println("THIS IS THE @AfterMethod METHOD THAT RUN AFTER EACH TEST");}
+			System.out.println("THIS IS THE @AfterMethod METHOD THAT RUN AFTER EACH @TEST");}
 		
 			@AfterClass
 			public void methodAfterAllTest(){
-				System.out.println("THIS IS THE  @AfterClass METHOD THAT RUN AFTER ALL TEST");
+				System.out.println("THIS IS THE  @AfterClass METHOD THAT RUN AFTER ALL @TEST");
 	
 }}
